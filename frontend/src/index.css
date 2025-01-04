@@ -1,0 +1,17 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Additional styles for Radix Select */
+.radix-select-trigger {
+  @apply flex items-center justify-between border border-gray-300 rounded-md px-4 py-2 text-sm cursor-pointer;
+}
+
+.radix-select-content {
+  @apply bg-white border border-gray-300 rounded-md shadow-lg;
+}
+
+.radix-select-item {
+  @apply px-4 py-2 cursor-pointer hover:bg-gray-100;
+}
